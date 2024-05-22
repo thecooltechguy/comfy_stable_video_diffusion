@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-stable-video-diffusion"
+description = "Easily use Stable Video Diffusion inside ComfyUI!"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy", "fsspec", "matplotlib", "requests", "omegaconf", "transformers", "pytorch-lightning", "packaging", "regex", "ftfy", "tqdm", "sentencepiece", "protobuf", "pyyaml", "huggingface_hub"]
+
+[project.urls]
+Repository = "https://github.com/thecooltechguy/ComfyUI-Stable-Video-Diffusion"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Stable-Video-Diffusion"
+Icon = ""
